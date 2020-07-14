@@ -29,8 +29,8 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Work</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                       <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Work</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#footer">Contact</a></li>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@
         <!-- Masthead-->
         <header class="masthead bg-dark text-white text-center">
             <div class="container"> 
-                <img class="masthead-avatar mb-5" src="assets/img/headshot.png" alt="">
+              
                 <div id="text" class="banner_text_w3ls my-md-5 my-3 masthead-subheading"></div>
              <!--  <script> 
 
@@ -117,6 +117,7 @@
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
+
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Projects</h2>
                   <!--  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
@@ -178,8 +179,39 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Flapping Bird</div>
+                                <div class="portfolio-caption-subheading text-muted">Game Development</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Recipe Search</div>
+                                <div class="portfolio-caption-subheading text-muted">React Project</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+                </div>
+            </div>
+       
         </section>
 
         <!-- About
@@ -304,15 +336,11 @@
       
         <!-- Footer-->
         <footer class="footer py-4 bg-dark">
-            <div class="container" id="footer">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left text-white">  <h2 class="section-heading text-uppercase">Contact Me</h2></div>
-                    <div class="col-lg-4 my-3 my-lg-0">
+            <div class="container">
+                        <h2 class="section-heading text-uppercase text-white text-center">Contact Me</h2>
                         <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/alahadibrahimpatrawala/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="https://github.com/ahadpatrawala"><i class="fab fa-github"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="mailto:ahadpatrawala@gmail.com"><i class="fa fa-envelope"></i></a>
-                    </div>
-                </div>
             </div>
         </footer>
         <!-- Portfolio Modals-->
@@ -390,7 +418,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">To-Do App</h2>
                                     <p class="item-intro text-muted">React Project</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.gif" alt="" />
                                     <p>Web Application to create a list of To-do items</p>
                                     <ul class="list-inline">
                                         <li>Date: April 2020</li>
@@ -420,7 +448,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Weather App</h2>
                                     <p class="item-intro text-muted">React Project</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.gif" alt="" />
                                     <p>Web Application to check weather details of a particular city</p>
                                     <ul class="list-inline">
                                         <li>Date: June 2020</li>
@@ -438,7 +466,66 @@
                 </div>
             </div>
         </div>
-
+            <!-- Modal 5-->
+            <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project Details Go Here-->
+                                        <h2 class="text-uppercase">Flapping Bird</h2>
+                                        <p class="item-intro text-muted">Game</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.gif" alt="" />
+                                        <p>Game where the player has to avoid obstacles to get a high score</p>
+                                        <ul class="list-inline">
+                                            <li>Date: April 2018</li>
+                                            <li>Technology/Tools used: Java, Processing IDE</li>
+                                            <li><a href="https://github.com/ahadpatrawala/FlappingBird/">Click here to visit</a></li>
+                                        </ul>
+                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                            <i class="fas fa-times mr-1"></i>
+                                            Close Project
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 6-->
+            <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project Details Go Here-->
+                                        <h2 class="text-uppercase">Recipe Search</h2>
+                                        <p class="item-intro text-muted">React Application</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.gif" alt="" />
+                                        <p>Recipe Search with API using React</p>
+                                        <ul class="list-inline">
+                                            <li>Date: May 2020</li>
+                                            <li>Technology/Tools used: React</li>
+                                            <li><a href="https://ahadpatrawala.github.io/recipe-search">Click here to visit</a></li>
+                                        </ul>
+                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                            <i class="fas fa-times mr-1"></i>
+                                            Close Project
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
