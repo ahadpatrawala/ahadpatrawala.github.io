@@ -1,55 +1,453 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
-<head>
-<title>Under Construction | Ahad Patrawala</title>
-<!-- custom-theme -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Site Under Maintenance Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //custom-theme -->
-<link href="css/font-awesome.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="//fonts.googleapis.com/css?family=Hind+Siliguri:300,400,500,600,700" rel="stylesheet">
-</head>
-<body class="bg-agileinfo">
-   <h1 class="agile-head text-center">site under construction</h1>
-	<div class="container-w3">
-		<div class="content1-w3layouts"> 
-			<img src="images/2.png" alt="under-construction">
-			<p class="text-center">Sorry for the inconvenience.To improve, I have momentarily shutdown our site.</p>
-		</div>
-		<div class="demo2"></div>
-		    <div class="wthree-social-icons">
-				<ul class="w3-links">
-					<li><a href="https://www.linkedin.com/in/alahadibrahimpatrawala/"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-			</div>
-			</form>
-		</div>	
-	</div>
-    <div class="agileits-w3layouts-copyright text-center">
-		<p>© 2020 Site Under Construction. All rights reserved | Design by <a href="//w3layouts.com/">W3layouts</a></p>
-	</div>
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<link rel="stylesheet" href='css/dscountdown.css' type='text/css' media='all' />
-	<!-- Counter required files -->
-		<script type="text/javascript" src="js/dscountdown.min.js"></script>
-		<script>
-			jQuery(document).ready(function($){						
-				$('.demo2').dsCountDown({
-					endDate: new Date("june 15, 2020 23:59:00"),
-					theme: 'black'
-				});								
-			});
-		</script>
-	<!-- //Counter required files -->
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Alahad Patrawala</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Alahad Patrawala</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Work</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-dark text-white text-center">
+            <div class="container"> 
+                <img class="masthead-avatar mb-5" src="assets/img/headshot.png" alt="">
+                <div id="text" class="banner_text_w3ls my-md-5 my-3 masthead-subheading"></div>
+             <!--  <script> 
+
+                    //text effect
+            
+                    document.addEventListener('DOMContentLoaded', function (event) {
+            
+                        var dataText = [
+                            "Hi There,",
+                            "I am Alahad Patrawala"
+                        ];
+            
+                        // type one text in the typwriter
+                        // keeps calling itself until the text is finished
+                        function typeWriter(text, i, fnCallback) {
+                            // chekc if text isn't finished yet
+                            if (i < (text.length)) {
+                                // add next character to h1
+                                document.getElementById("text").innerHTML = text.substring(0, i + 1) +
+                                    '<span aria-hidden="true" class="banner_text_w3ls"></span>';
+            
+                                // wait for a while and call this function again for next character
+                                setTimeout(function () {
+                                    typeWriter(text, i + 1, fnCallback)
+                                }, 50);
+                            }
+                            // text finished, call callback if there is a callback function
+                            else if (typeof fnCallback == 'function') {
+                                // call callback after timeout
+                                setTimeout(fnCallback, 1000);
+                            }
+                        }
+                        // start a typewriter animation for a text in the dataText array
+                        function StartTextAnimation(i) {
+                            // check if dataText[i] exists
+                            if (i < dataText[i].length) {
+                                // text exists! start typewriter animation
+                                typeWriter(dataText[i], 0, function () {
+                                    // after callback (and whole text has been animated), start next text
+                                    StartTextAnimation(i + 1);
+                                });
+                            }
+                        }
+                        // start the text animation
+                        StartTextAnimation(0);
+                    });
+                </script> -->
+                <h1 class="masthead-heading text-uppercase mb-0"> Hi There,
+                    <br><span class="typed"></span>
+                    <script src="js/typed.js"></script>
+                    <script>
+                        var typed = new Typed('.typed', {
+                        strings: ["I'm Alahad Patrawala"],
+                        typeSpeed: 100,
+                        loop: !0
+                        });
+                      </script>
+                  </h1>
+            </header>
+        <!-- Services-->
+
+        <section class="page-section bg-light" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">
+                        I am a recent graduate of Computer Information Systems Technology program at the University of the Fraser Valley and have also completed a degree in Information Technology from University of Mumbai. 
+                        <br><br>In the midst of completing the program, I had the opportunity to intern at SAP as a Product Support Engineer. I also have had the opportunity to hone my skills in and gain knowledge about various programming languages such as Java, JavaScript, React and get more involved in web technologies through academic as well as personal projects. 
+                        <br><br>When I am not busy with school or projects, you can find me doing photography to showcase the beauty of nature.
+                    </h3>
+                    </div>
+              <!--  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Download Resume</a> -->
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Projects</h2>
+                  <!--  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Refac Enterprises</div>
+                                <div class="portfolio-caption-subheading text-muted">Business Website</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">TravelIndia</div>
+                                <div class="portfolio-caption-subheading text-muted">Travel Website</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">To-Do App</div>
+                                <div class="portfolio-caption-subheading text-muted">React Project</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Weather App</div>
+                                <div class="portfolio-caption-subheading text-muted">React Project</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Education</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> 
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="fa fa-graduation-cap"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2017-2019</h4>
+                                <h4 class="subheading">University of the Fraser Valley</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"></p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="fa fa-graduation-cap"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2013-2016</h4>
+                                <h4 class="subheading">Mumbai University</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"></p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+
+    <!--    <section class="page-section" id="work">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Experience</h2>
+        <ul class="timeline">
+            <!-- Item 1 -
+            <li>
+                <div class="direction-r">
+                    <div class="flag-wrapper">
+                        <span class="flag">Freelancer</span>
+                        <span class="time-wrapper"><span class="time">Jan 2020 - Feb 2020</span></span>
+                    </div>
+                    <div class="desc">My current employment. Way better than the position before!</div>
+                </div>
+            </li>
+          
+            <!-- Item 2 -
+            <li>
+                <div class="direction-l">
+                    <div class="flag-wrapper">
+                        <span class="flag"><span class="fa fa-briefcase"></span> Apple Inc.</span>
+                        <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                    </div>
+                    <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                </div>
+            </li>
+        
+            <!-- Item 3 -
+            <li>
+                <div class="direction-r">
+                    <div class="flag-wrapper">
+                        <span class="flag">Harvard University</span>
+                        <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                    </div>
+                    <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+                </div>
+            </li>
+          
+        </ul>
+        </div>
+        </section>
+        <!-- Clients-
+
+        <section class="page-section" id="education">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Education</h2>
+            <ul class="timeline">
+                <!-- Item 1 -
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Freelancer</span>
+                            <span class="time-wrapper"><span class="time">Jan 2020 - Feb 2020</span></span>
+                        </div>
+                        <div class="desc">My current employment. Way better than the position before!</div>
+                    </div>
+                </li>
+              
+                <!-- Item 2 -
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag"><span class="fa fa-briefcase"></span> Apple Inc.</span>
+                            <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                        </div>
+                        <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                    </div>
+                </li>
+            
+                <!-- Item 3 -
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Harvard University</span>
+                            <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                        </div>
+                        <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+                    </div>
+                </li>
+              
+            </ul>
+            </div>
+            </section>
+        -->
+        <!-- Contact-->
+      
+        <!-- Footer-->
+        <footer class="footer py-4 bg-dark">
+            <div class="container" id="footer">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left text-white">  <h2 class="section-heading text-uppercase">Contact Me</h2></div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/in/alahadibrahimpatrawala/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-social mx-2" href="https://github.com/ahadpatrawala"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-light btn-social mx-2" href="mailto:ahadpatrawala@gmail.com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Refac Enterprises</h2>
+                                    <p class="item-intro text-muted">Business Website</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.gif" alt="" />
+                                    <p>Developed a business website by working closely with the client to manage the process, improve site functionality and ensure my work met their goals</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Technology used: React, Javascript, PHP, HTML, CSS</li>
+                                        <li><a href="https://www.refacenterprises.com">Click here to visit</a></li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">TravelIndia</h2>
+                                    <p class="item-intro text-muted">Travel Website</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
+                                    <p>Developed a fully functional travel website for a travel agency in ASP.NET with C# following software engineering principles. 
+                                       The user can book air/bus tickets and plan their holiday using the website.
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>Date: April 2016</li>
+                                        <li>Technology used: ASP.Net, C#, SQL</li>
+                                        <li><a href="https://github.com/ahadpatrawala/TravelIndia">Click here to visit</a></li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">To-Do App</h2>
+                                    <p class="item-intro text-muted">React Project</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
+                                    <p>Web Application to create a list of To-do items</p>
+                                    <ul class="list-inline">
+                                        <li>Date: April 2020</li>
+                                        <li>Technology used: React</li>
+                                        <li><a href="https://ahadpatrawala.github.io/to-do-app/">Click here to visit</a></li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Weather App</h2>
+                                    <p class="item-intro text-muted">React Project</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                                    <p>Web Application to check weather details of a particular city</p>
+                                    <ul class="list-inline">
+                                        <li>Date: June 2020</li>
+                                        <li>Technology used: React</li>
+                                        <li><a href="https://ahadpatrawala.github.io/weather-app/">Click here to visit</a></li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
